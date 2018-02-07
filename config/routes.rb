@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :prototypes, only: [:index, :new, :create, :show ,:destroy, :edit, :update]
   resources :users, only: [:show, :edit, :update]
 
+
 end
